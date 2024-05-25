@@ -1,1 +1,26 @@
 primero siempre clone
+desoues de clone no es necesario git pull, solo siempre despues de que alguien
+haya subido un cambio
+
+Algoritmo sin_titulo
+	Dimension matriz[6,6]
+	
+	Para f=1 Hasta 6 Con Paso 1 Hacer
+		Para c=1 Hasta 6 Con Paso 1 Hacer
+			SI(f == c) Entonces
+				matriz[f,c]=1
+			FinSi
+		FinPara
+	FinPara
+	
+	Para f=1 Hasta 6 Con Paso 1 Hacer
+		Para c=1 Hasta 6 Con Paso 1 Hacer
+			Escribir matriz[f,c] Sin Saltar
+		FinPara
+		Escribir ("")
+	FinPara
+FinAlgoritmo
+================================================================
+================================================================
+================================================================
+================================================================
